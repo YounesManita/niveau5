@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.card{
+  width: 40%;
+  box-shadow: 2px 3px 4px 0px burlywood;
+  margin: auto;
+  
+}
+.card::after{
+ 
+    content: "Read this: ";
+}
+img{
+  width: 100%;
+}
